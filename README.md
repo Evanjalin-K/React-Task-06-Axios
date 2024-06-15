@@ -1,8 +1,7 @@
-# React + Vite
+# React Task 06 Axios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Created a user data form using React Axios to perform CRUD.
+2. Using the Add User button, we can add new data.
+3. Using the Edit button, we can edit the existing data.
+4. Using the Delete button, we can delete the data.
+5. Used Axios to fetch the data from https://jsonplaceholder.typicode.com/users.

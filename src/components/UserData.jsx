@@ -70,11 +70,11 @@ const UserData = ({ users, handleDeleteUser, onAddUser, onUpdateUser }) => {
 
   const handleEditUser = (userId) => {
     setEditingUserId(userId);
-    setShowAddForm(true); // Show form when editing
+    setShowAddForm(true); 
   };
 
   const handleAddUser = () => {
-    setShowAddForm(true); // Show form when adding
+    setShowAddForm(true); 
   };
 
   const clearFields = () => {
@@ -85,11 +85,12 @@ const UserData = ({ users, handleDeleteUser, onAddUser, onUpdateUser }) => {
     setPhone('');
     setCompany('');
     setEditingUserId(null);
-    setShowAddForm(false); // Hide form after submission or cancellation
+    setShowAddForm(false); 
   };
 
   return (
     <div className='container'>
+      <h3 className='title'>USERS DATA FORM</h3>
       {!showAddForm && (
         <button className="addButton" onClick={handleAddUser}>
           <FontAwesomeIcon icon={faPlus} /> Add User
